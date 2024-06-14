@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #F9F9F9;
+}
+
+h1 {
+  @apply text-8xl font-black;
+}
+
+h2 {
+  @apply text-2xl font-semibold;
+}
+
+.main-title {
+    @apply font-black text-6xl;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input {
+  color: black
+  /* outline: none; */
+}
+
+label {
+  @apply text-[14px] font-semibold
+}
+
+p {
+  @apply text-[12px] font-medium text-gray-400
+}
